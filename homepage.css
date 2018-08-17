@@ -1,0 +1,31 @@
+.visual {
+  height: 500px;
+  width: 595px;
+  display: block;
+  margin: 0 auto;
+}
+
+.music {
+  height: 500px;
+  width: 595px;
+  display: block;
+  margin: 0 auto;
+}
+
+.film { height: 500px;
+  width: 595px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 { 
+text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}

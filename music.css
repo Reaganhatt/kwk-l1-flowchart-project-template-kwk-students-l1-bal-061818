@@ -1,0 +1,49 @@
+.music {
+  height: 500px;
+  width: 595px;
+}
+
+.ariana {
+  height: 430px;
+  width: 300px;
+  display: block;
+  margin: 0 auto; 
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.aesthetic {
+  height: 200px;
+  width: 1425px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ag {
+  display: block;
+  margin: 0 auto;
+}
+
+.musicx {
+  text-align: left;
+}
+
+.musicz {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%
+}
+
+.genre {
+  text-align: left
+}
