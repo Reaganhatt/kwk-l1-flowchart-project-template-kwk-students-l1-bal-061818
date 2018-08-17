@@ -1,8 +1,8 @@
-body, html{ 
+body, html{
   height: 100%;
   margin: 0;
 }
-  
+
   h1 {
   text-align: center;
   font-size: 60px;
@@ -14,7 +14,7 @@ body, html{
 h2 {
   font-family: 'EB Garamond', serif;
 }
- .header{ 
+ .header{
 
   background-image: url("https://i.pinimg.com/originals/5f/55/db/5f55dbaf0df70f1d9297a14c476e1bcf.jpg");
   height: 100%;
