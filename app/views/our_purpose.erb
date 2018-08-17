@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" href="our_purpose.css">
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond:600i|Francois+One|Montserrat" rel="stylesheet">
+   </head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<ul>
+ <li><center><a class="active" href="index.html">Home</center></a></li>
+ <li><a href="our_purpose.html">Our Purpose</a></li>
+ <li><a href="about_us.html">About Us</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<h1> Our Purpose </h1>
+
+<p>The purpose of this website is to help people with food allergies find what they can eat at restaurants near them, decreasing the risk of an individual having an allergic reaction to a food by making them aware if their allergen is in a food before they choose the restaurant. Our goal is to make the world a safer and more enjoyable place for people with allergies and intolerances. </p>
+
+<h2 class="w3-center">Here are the top 8 most common allergies:</h2>
+
+
+<ol> <center>
+ <li> Eggs </li> <br>
+ <li> Milk </li><br>
+ <li> Tree nuts </li><br>
+ <li> Soy </li><br>
+ <li> Peanuts </li><br>
+ <li> Fish </li> <br>
+ <li> Shellfish </li> <br>
+ <li> Gluten </li> <br>
+</ol>
+<br>
+
+<div class="w3-content w3-display-container">
+ <img class="mySlides" src="https://www.simplyrecipes.com/wp-content/uploads/2014/07/hard-boiled-eggs-horiz-800.jpg" style="width:100%">
+
+ <img class="mySlides" src="https://assets.vancouverisawesome.com/wp-content/uploads/2018/07/13084028/milk.jpg" style="width:100%">
+
+ <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvlO3V3wYGl3gtPOGdUE6JhC0hz5lwXmrIXlrEEi_FSDjWvxfHLA" style="width:100%">
+
+ <img class="mySlides" src="https://cdn1.medicalnewstoday.com/content/images/articles/320/320472/is-soy-good-for-you.jpg" style="width:100%">
+
+ <img class="mySlides" src="https://game-solver.com/wp-content/uploads/2013/08/Zoomed_222.jpg" style="width:100%">
+
+ <img class="mySlides" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-908965850-1533835170.jpg?crop=1.00xw:0.752xh;0,0.156xh&resize=480:*" style="width:100%">
+
+  <img class="mySlides" src="https://ichef.bbci.co.uk/news/660/cpsprodpb/D505/production/_100133545_gettyimages-586165510.jpg" style="width:100%">
+
+  <img class="mySlides" src="https://static.agcanada.com/wp-content/uploads/2018/03/cba_wheatfield1000.jpg" style="width:100%">
+
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+ showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+ }
+ x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+</body>
+</html>
